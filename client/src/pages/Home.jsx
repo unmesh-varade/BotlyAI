@@ -7,16 +7,16 @@ import Plan from '../components/Plan'
 import Footer from '../components/Footer'
 
 const Home = () => {
-  return (
-    <>
-        <Navbar />
-        <Hero/>
-        <AiTools/>
-        <Testimonial/>
-        <Plan/>
-        <Footer/>
-    </>
-  )
+    return (
+        <>
+            <Navbar />
+            <Hero />
+            <AiTools />
+            <Testimonial />
+            <Plan />
+            <Footer />
+        </>
+    )
 }
 
 export default Home

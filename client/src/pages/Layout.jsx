@@ -8,7 +8,7 @@ import { SignIn, useUser } from "@clerk/clerk-react";
 const Layout = () => {
     const navigate = useNavigate();
     const [sidebar, setSidebar] = useState(false);
-    const {user} = useUser()
+    const { user } = useUser();
 
     return user ? (
         <div className="flex flex-col items-start justify-start h-screen">
@@ -39,9 +39,9 @@ const Layout = () => {
             </div>
         </div>
     ) : (
-      <div className="flex items-center justify-center h-screen">
-        <SignIn/>
-      </div>
+        <div className="flex items-center justify-center h-screen">
+            <SignIn />
+        </div>
     );
 };
 
